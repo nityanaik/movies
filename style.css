@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+}
+div.main-content{
+    background-color: #1C2833;
+    /* height: 100%; */
+    width: 100%;
+}
+div.container{
+    /* height: 100%; */
+    width: 80%;
+    margin: auto;
+    background-color:transparent;
+}
+div.header{
+    height: 10%;
+    width: 100%;
+    /* border: 1px solid blanchedalmond; */
+    box-sizing: border-box;
+}
+div.header img{
+    width: 50px;
+    height: 90%;
+}
+div.category{
+    height: 10%;
+    /* float: right; */
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+.category select{
+    float: left;
+    margin: 10px;
+    /* width: 100px; */
+    height: 45px;
+    font-size: larger;
+    font-family: serif;
+    background-color: transparent;
+    color: wheat;
+    position: absolute;
+    margin-left: 100px;
+}
+span.categ{
+    font-size: 20px;
+    color: wheat;
+    position: absolute;
+    margin: 20px;
+}
+.category select option{
+    background-color: #1C2833;
+}
+div.filter{
+    width: 100%;
+    height:20%;
+}
+div.list{
+    width:50%;
+    height: 100%;
+    float: left;
+}
+div.movies{
+    background-color: aqua;
+    width:100%;
+    height:230px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+div.movie_img,div.moviedetails{
+    height: 100%;
+    float: left;
+}
+div.movie_img{
+    width:40%;
+}
+div.moviedetails{
+    width: 60%;
+}
+.movie_title,.movie_desc,.movie_date,.movie_duration,.movie_category{
+    width:100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* color: aliceblue; */
+}
+.movie_title{
+    height: 20%;
+    /* background-color: blue; */
+    font-size: 30px;
+}
+.movie_desc{
+    height: 30%;
+    /* background-color: aliceblue; */
+}
+.movie_date{
+    height: 15%;
+    /* background-color: yellowgreen; */
+}
+.movie_duration{
+    height: 15%;
+    /* background-color: violet; */
+}
+.movie_category{
+    height: 20%;
+    /* background-color: tomato; */
+}
+div.lang{
+    color: aliceblue;
+}
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+.pagination>li {
+    display: inline;
+}
+.pagination>li>a {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+div.list{
+    color: antiquewhite;
+    /* margin-left: 20px; */
+    box-sizing: border-box;
+}
+div.filter{
+    box-sizing: border-box;
+}
